@@ -77,6 +77,14 @@ section div {
   text-align: center;
 }
 
+.gmag {
+  transform: translate(41px, 8px);
+}
+
+.gmic {
+  transform: translate(-45px, 8px);
+}
+
 .searchbox {
   /* border: 1px rgb(255, 0, 0) solid; */
   border: 1px rgb(255, 255, 255) solid;
@@ -117,6 +125,7 @@ button:hover {
     /* Visual Aid */
   /* border: 1px rgb(255, 0, 0) solid; */
   width: 100%;
+  height: 47px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -133,7 +142,6 @@ button:hover {
   /* Visual Aid */
   /* border: 1px rgb(0, 0, 255) solid; */
   /* justify-content: space-evenly; */
-
   padding: 0px 10px 0px 20px;
 }
 
@@ -150,7 +158,12 @@ button:hover {
 }
 
 .fbox-5 {
-  margin: 0px 0px 2px -107px;
+  transform: translate(-55.5px, -1px)
+}
+
+.gleaf {
+  transform: translate(496.5px, 0px)
+  scale(.58)
 }
 
 .fbox-7 {
